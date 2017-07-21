@@ -192,7 +192,7 @@ $(function() {
   $('select').change(function() {
     let optionValue = $( "select option:selected" ).text();
     $('#search-bar').val(""); //empty out the search bar
-
+    $('#description').empty();
     doctors.findDoctors("specialty", optionValue);
     doctors.sortBy("reviewScore");
     doctors.displayDoctors();
@@ -205,7 +205,7 @@ $(function() {
     clearTimeout(timer);
     timer = setTimeout(function (event) {
       var text = $('#search-bar').val().toLowerCase();
-      console.log(text);
+      $('#description').empty();
       doctors.findDoctors("searchbar", text);
       doctors.displayDoctors();
     }, 1300);
