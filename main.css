@@ -1,0 +1,86 @@
+body, div, img, h1, h2, h3, h4, p {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #000;
+  background-color: #343338; }
+
+#app {
+  background-color: #2f2f31;
+  width: 1000px;
+  height: 500px;
+  margin: 80px auto 0; }
+  #app #app-info {
+    background-color: #fff;
+    width: 98%;
+    height: 98%;
+    margin: 0 auto; }
+    #app #app-info #header {
+      width: 100%;
+      height: 20%;
+      background-color: #04B2D9; }
+      #app #app-info #header h1 {
+        color: #fff;
+        text-align: Center;
+        padding-top: 10px;
+        margin-bottom: 15px; }
+    #app #app-info #content {
+      width: 100%;
+      height: 80%;
+      overflow: hidden; }
+      #app #app-info #content #recommended-doctors {
+        width: 30%;
+        height: 100%;
+        border-right: 2px ridge #ddd;
+        overflow-y: scroll;
+        padding: 10px 5px;
+        display: inline-block;
+        float: left; }
+        #app #app-info #content #recommended-doctors img {
+          border-radius: 50%;
+          border: 1px solid #ddd;
+          display: inline-block;
+          margin: 0 16px;
+          vertical-align: top;
+          width: 60px;
+          height: 60px; }
+        #app #app-info #content #recommended-doctors .doc-info {
+          display: inline-block; }
+
+.clear {
+  clear: both; }
+
+#description {
+  display: inline-block;
+  width: calc(70% - 12px);
+  height: 100%;
+  float: right;
+  margin: auto; }
+  #description p {
+    width: 90%;
+    margin: 40px auto 0; }
+
+.doctors {
+  margin: 0 0 10px;
+  padding: 10px 5px;
+  cursor: pointer;
+  width: 100%; }
+
+.doctors:hover {
+  background-color: #eee; }
+
+.doctor-name {
+  margin-left: 30px; }
+
+.docs-specialty {
+  font-size: 14px; }
+
+.ratings {
+  color: #FFD300; }
+
+.search-options {
+  margin-left: 40px; }
+
+/*# sourceMappingURL=main.css.map */

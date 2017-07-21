@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Similar Doctors</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+<body>
+  <div id="wrapper">
+    <div id="app">
+      <div id="app-info">
+        <div id="header">
+        <h1>Similar Doctors</h1>
+        <div id="searchables">
+          <span class="search-options">Pick a Specialty: </span>
+          <select>
+            <option value="all">All</option>
+            <option value="dermatologist">Dermatologist</option>
+            <option value="gynecologist">Gynecologist</option>
+            <option value="pediatrician">Pediatrician</option>
+            <option value="plastic surgeon">Plastic surgeon</option>
+          </select>
+          <span class="doctor-name search-options">Doctor's Name: </span>
+          <input id="search-bar" type="text" name="">
+        </div>
+        </div>
+        <div id="content" class=".clear">
+          <div id="recommended-doctors"></div>
+          <div id="description">
+          
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
